@@ -252,6 +252,16 @@ The nonlinear models substantially outperformed the linear baseline.
 
 The tuned Random Forest was optimized using group-aware cross-validation with MAE as the scoring metric.
 
+### Model Selection and Interpretation
+
+Model performance differed across pollutants and evaluation metrics.
+
+For PM2.5, XGBoost produced the highest test R² and lowest RMSE, while the tuned Random Forest produced the lowest MAE. For NO₂, the untuned Random Forest produced the highest test R² and lowest MAE among the evaluated models.
+
+The tuned Random Forest was selected for the subsequent diagnostic and explainability analysis because it was optimized using group-aware cross-validation with MAE as the scoring metric.
+
+These results do not imply that one model was universally superior across all evaluation criteria.
+
 ---
 
 ## Model Diagnostics
@@ -447,7 +457,7 @@ The project is intentionally designed to demonstrate transferable data science s
 
 ---
 
-## Author
+## Authors
 
 **Shedrack Chinonso**
 
@@ -456,6 +466,14 @@ Environmental Technology graduate transitioning into Data Science and Machine Le
 GitHub: https://github.com/RackLabz
 
 LinkedIn: https://www.linkedin.com/in/shedrack-chinonso-69058219a
+
+**Ijeoma Ayalogu**
+
+Civil and Environmental Engineer leveraging  Data Science and Machine Learning to contribute to a more sustainable future.
+
+GitHub: https://github.com/ijeomaayalogu
+
+LinkedIn: https://www.linkedin.com/in/ijeoma-ayalogu-89a849243
 
 ---
 
