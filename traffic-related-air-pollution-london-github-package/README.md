@@ -457,7 +457,7 @@ The project is intentionally designed to demonstrate transferable data science s
 
 ---
 
-## Author
+## Authors
 
 **Shedrack Chinonso**
 
@@ -466,6 +466,14 @@ Environmental Technology graduate transitioning into Data Science and Machine Le
 GitHub: https://github.com/RackLabz
 
 LinkedIn: https://www.linkedin.com/in/shedrack-chinonso-69058219a
+
+**Ijeoma Ayalogu**
+
+Civil and Environmental Engineer leveraging  Data Science and Machine Learning to contribute to a more sustainable future.
+
+GitHub: https://github.com/ijeomaayalogu
+
+LinkedIn: https://www.linkedin.com/in/ijeoma-ayalogu-89a849243
 
 ---
 
