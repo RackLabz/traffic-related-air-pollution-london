@@ -252,6 +252,16 @@ The nonlinear models substantially outperformed the linear baseline.
 
 The tuned Random Forest was optimized using group-aware cross-validation with MAE as the scoring metric.
 
+### Model Selection and Interpretation
+
+Model performance differed across pollutants and evaluation metrics.
+
+For PM2.5, XGBoost produced the highest test R² and lowest RMSE, while the tuned Random Forest produced the lowest MAE. For NO₂, the untuned Random Forest produced the highest test R² and lowest MAE among the evaluated models.
+
+The tuned Random Forest was selected for the subsequent diagnostic and explainability analysis because it was optimized using group-aware cross-validation with MAE as the scoring metric.
+
+These results do not imply that one model was universally superior across all evaluation criteria.
+
 ---
 
 ## Model Diagnostics
